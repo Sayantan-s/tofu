@@ -10,7 +10,9 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "rm -rf dist && node build.js",
+    "start": "node dist/server.js"
   },
   "devDependencies": {
     "esbuild": "^0.28.0"
