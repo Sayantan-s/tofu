@@ -1,4 +1,6 @@
+import { renderToString } from "react-dom/server";
 import App from "./App";
+import React from "react";
 
 const HARD_CODED_MESSAGE = "Tofu: Intro";
 const BASE_MARKUP = (appMarkup) => `
